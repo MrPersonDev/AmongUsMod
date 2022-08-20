@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "NNN",
+        "NNN",
+        "NNN"
+    ],
+    "key": {
+        "N": {
+            "item": "amongus:among_us_nugget"
+        }
+    },
+    "result": {
+        "item": "amongus:raw_among_us"
+    }
+}
