@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+    "item": "amongus:raw_among_us"
+    },
+    "result": "amongus:among_us_ingot",
+    "experience": 0.6
+}
