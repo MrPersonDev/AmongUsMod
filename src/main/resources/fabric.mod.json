@@ -3,27 +3,26 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Among Us Mod",
+  "description": "Stupid mod to add an imposter enemy and among us tier gear.",
   "authors": [
-    "Me!"
+    "Mr Person"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/MrPersonDev/AmongUsMod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "None",
+  "icon": "assets/amongus/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "mrperson.amongus.AmongUs"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "amongus.mixins.json"
   ],
 
   "depends": {
