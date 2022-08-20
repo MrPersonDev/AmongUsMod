@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        " I ",
+        " S "
+    ],
+    "key": {
+        "I": {
+            "item": "amongus:among_us_ingot"
+        },
+        "S": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "amongus:knife"
+    }
+}
