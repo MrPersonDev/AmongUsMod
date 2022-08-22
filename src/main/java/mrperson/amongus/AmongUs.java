@@ -1,5 +1,6 @@
 package mrperson.amongus;
 
+import mrperson.amongus.entity.EntityRegistry;
 import mrperson.amongus.item.ItemRegistry;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -15,5 +16,6 @@ public class AmongUs implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ItemRegistry.init();
+		EntityRegistry.init();
 	}
 }

@@ -19,6 +19,9 @@
   "entrypoints": {
     "main": [
       "mrperson.amongus.AmongUs"
+    ],
+    "client": [
+      "mrperson.amongus.AmongUsClient"
     ]
   },
   "mixins": [
