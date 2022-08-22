@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "III",
+        "I I",
+        "   "
+    ],
+    "key": {
+        "I": {
+            "item": "amongus:among_us_ingot"
+        }
+    },
+    "result": {
+        "item": "amongus:among_us_helmet"
+    }
+}
