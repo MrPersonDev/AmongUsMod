@@ -7,5 +7,9 @@
     "item.amongus.among_us_chestplate": "Among Us Chestplate",
     "item.amongus.among_us_leggings": "Among Us Leggings",
     "item.amongus.among_us_boots": "Among Us Boots",
+    "subtitles.amongus.imposter_ambient": "Sabotage Alarm",
+    "subtitles.amongus.imposter_dead": "Imposter Dies",
+    "subtitles.amongus.imposter_hurt": "Imposter Hurt",
+    "subtitles.amongus.imposter_step": "Imposter Steps",
     "itemGroup.amongus.amongus": "Among Us"
 }

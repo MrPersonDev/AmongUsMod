@@ -1,11 +1,13 @@
 package mrperson.amongus.entity;
 
+import mrperson.amongus.sound.SoundRegistry;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityPose;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
+import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.mob.ZombieEntity;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.math.BlockPos;
@@ -37,21 +39,21 @@ public class Imposter extends ZombieEntity {
         return false;
     }
 
-    // protected SoundEvent getAmbientSound() {
-    //     return AmongUs.TESTENTITY_AMBIENT_EVENT;
-    // }
+    protected SoundEvent getAmbientSound() {
+        return SoundRegistry.IMPOSTER_AMBIENT_EVENT;
+    }
 
-    // protected SoundEvent getHurtSound(DamageSource source) {
-    //     return AmongUs.TESTENTITY_HURT_EVENT;
-    // }
+    protected SoundEvent getHurtSound(DamageSource source) {
+        return SoundRegistry.IMPOSTER_HURT_EVENT;
+    }
 
-    // protected SoundEvent getDeathSound() {
-    //     return AmongUs.TESTENTITY_DEAD_EVENT;
-    // }
+    protected SoundEvent getDeathSound() {
+        return SoundRegistry.IMPOSTER_DEAD_EVENT;
+    }
 
-    // protected SoundEvent getStepSound() {
-    //     return Testing.TESTENTITY_STEP_EVENT;
-    // }
+    protected SoundEvent getStepSound() {
+        return SoundRegistry.IMPOSTER_STEP_EVENT;
+    }
 
     protected float getActiveEyeHeight(EntityPose pose, EntityDimensions dimensions) {
         return 0.8F;

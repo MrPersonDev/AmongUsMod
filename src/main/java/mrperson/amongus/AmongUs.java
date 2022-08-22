@@ -2,6 +2,7 @@ package mrperson.amongus;
 
 import mrperson.amongus.entity.EntityRegistry;
 import mrperson.amongus.item.ItemRegistry;
+import mrperson.amongus.sound.SoundRegistry;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
@@ -17,5 +18,6 @@ public class AmongUs implements ModInitializer {
 	public void onInitialize() {
 		ItemRegistry.init();
 		EntityRegistry.init();
+		SoundRegistry.init();
 	}
 }

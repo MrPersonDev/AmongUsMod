@@ -1,0 +1,26 @@
+{
+    "imposter_ambient": {
+        "subtitle": "subtitles.amongus.imposter_ambient",
+        "sounds": [
+            "amongus:imposter_ambient"
+        ]
+    },
+    "imposter_dead": {
+        "subtitle": "subtitles.amongus.imposter_dead",
+        "sounds": [
+            "amongus:imposter_dead"
+        ]
+    },
+    "imposter_hurt": {
+        "subtitle": "subtitles.amongus.imposter_hurt",
+        "sounds": [
+            "amongus:imposter_hurt"
+        ]
+    },
+    "imposter_step": {
+        "subtitle": "subtitles.amongus.imposter_step",
+        "sounds": [
+            "amongus:imposter_step"
+        ]
+    }
+}
