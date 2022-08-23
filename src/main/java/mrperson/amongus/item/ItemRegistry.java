@@ -1,11 +1,13 @@
 package mrperson.amongus.item;
 
 import mrperson.amongus.AmongUs;
+import mrperson.amongus.entity.EntityRegistry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
+import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolItem;
 import net.minecraft.util.Identifier;
@@ -23,6 +25,8 @@ public class ItemRegistry {
     public static final Item AMONG_US_CHESTPLATE = new ArmorItem(AMONG_US_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(AmongUs.ITEMGROUP));
 	public static final Item AMONG_US_LEGGINGS = new ArmorItem(AMONG_US_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(AmongUs.ITEMGROUP));
 	public static final Item AMONG_US_BOOTS = new ArmorItem(AMONG_US_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(AmongUs.ITEMGROUP));
+
+    public static final Item IMPOSTER_SPAWN_EGG = new SpawnEggItem(EntityRegistry.IMPOSTER, 16729400, 6032134, new Item.Settings().group(AmongUs.ITEMGROUP));
     
     public static void init() {
         Registry.register(Registry.ITEM, new Identifier("amongus", "raw_among_us"), RAW_AMONG_US);
@@ -35,5 +39,7 @@ public class ItemRegistry {
 		Registry.register(Registry.ITEM, new Identifier("amongus", "among_us_chestplate"), AMONG_US_CHESTPLATE);
 		Registry.register(Registry.ITEM, new Identifier("amongus", "among_us_leggings"), AMONG_US_LEGGINGS);
 		Registry.register(Registry.ITEM, new Identifier("amongus", "among_us_boots"), AMONG_US_BOOTS);
+
+        Registry.register(Registry.ITEM, new Identifier("amongus", "imposter_spawn_egg"), IMPOSTER_SPAWN_EGG);
     }
 }
