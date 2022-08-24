@@ -25,8 +25,10 @@ public class AmongUsArmorItem extends ArmorItem {
                 PlayerEntity player = (PlayerEntity)entity;
 
                 if (hasFullArmor(ItemRegistry.AMONG_US_ARMOR_MATERIAL, player)) {
-                    player.addStatusEffect(new StatusEffectInstance(EffectRegistry.SUS, Integer.MAX_VALUE, 1));
-                    lastHasFullArmor = true;
+                    if (!lastHasFullArmor) {
+                        player.addStatusEffect(new StatusEffectInstance(EffectRegistry.SUS, Integer.MAX_VALUE, 1));
+                        lastHasFullArmor = true;
+                    }
                 }
                 else {
                     if (lastHasFullArmor) {
