@@ -4,7 +4,6 @@ import mrperson.amongus.AmongUs;
 import mrperson.amongus.entity.EntityRegistry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.item.SpawnEggItem;
@@ -21,10 +20,10 @@ public class ItemRegistry {
     public static final ToolItem KNIFE = new SwordItem(KnifeToolMaterial.INSTANCE, 0, -1.4F, new Item.Settings().group(AmongUs.ITEMGROUP));
 
     public static final ArmorMaterial AMONG_US_ARMOR_MATERIAL = new AmongUsArmorMaterial();
-    public static final Item AMONG_US_HELMET = new ArmorItem(AMONG_US_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(AmongUs.ITEMGROUP));
-    public static final Item AMONG_US_CHESTPLATE = new ArmorItem(AMONG_US_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(AmongUs.ITEMGROUP));
-	public static final Item AMONG_US_LEGGINGS = new ArmorItem(AMONG_US_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(AmongUs.ITEMGROUP));
-	public static final Item AMONG_US_BOOTS = new ArmorItem(AMONG_US_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(AmongUs.ITEMGROUP));
+    public static final Item AMONG_US_HELMET = new AmongUsArmorItem(AMONG_US_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(AmongUs.ITEMGROUP));
+    public static final Item AMONG_US_CHESTPLATE = new AmongUsArmorItem(AMONG_US_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(AmongUs.ITEMGROUP));
+	public static final Item AMONG_US_LEGGINGS = new AmongUsArmorItem(AMONG_US_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(AmongUs.ITEMGROUP));
+	public static final Item AMONG_US_BOOTS = new AmongUsArmorItem(AMONG_US_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(AmongUs.ITEMGROUP));
 
     public static final Item IMPOSTER_SPAWN_EGG = new SpawnEggItem(EntityRegistry.IMPOSTER, 16729400, 6032134, new Item.Settings().group(AmongUs.ITEMGROUP));
     

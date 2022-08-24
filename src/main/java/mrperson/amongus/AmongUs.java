@@ -1,5 +1,6 @@
 package mrperson.amongus;
 
+import mrperson.amongus.effect.EffectRegistry;
 import mrperson.amongus.entity.EntityRegistry;
 import mrperson.amongus.item.ItemRegistry;
 import mrperson.amongus.sound.SoundRegistry;
@@ -19,5 +20,6 @@ public class AmongUs implements ModInitializer {
 		ItemRegistry.init();
 		EntityRegistry.init();
 		SoundRegistry.init();
+		EffectRegistry.init();
 	}
 }

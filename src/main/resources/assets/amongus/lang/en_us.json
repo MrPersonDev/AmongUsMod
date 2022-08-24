@@ -8,10 +8,11 @@
     "item.amongus.among_us_leggings": "Among Us Leggings",
     "item.amongus.among_us_boots": "Among Us Boots",
     "item.amongus.imposter_spawn_egg": "Imposter Spawn Egg",
+    "itemGroup.amongus.amongus": "Among Us",
     "subtitles.amongus.imposter_ambient": "Sabotage Alarm",
     "subtitles.amongus.imposter_dead": "Imposter Dies",
     "subtitles.amongus.imposter_hurt": "Imposter Hurt",
     "subtitles.amongus.imposter_step": "Imposter Steps",
     "entity.amongus.imposter": "Imposter",
-    "itemGroup.amongus.amongus": "Among Us"
+    "effect.amongus.sus": "Sus"
 }
